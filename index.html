@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechUprise: 10 Common Resume Mistakes & Fixes</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the TechUprise watermark */
+        .watermark-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            opacity: 0.05; /* Very subtle */
+            pointer-events: none; /* Allows clicks to pass through */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .watermark-text {
+            font-size: 8rem; /* Large font size */
+            font-weight: 800; /* Extra bold */
+            color: #93c5fd; /* Light blue color for watermark */
+            transform: rotate(-45deg); /* Rotate for a dynamic look */
+            user-select: none; /* Prevent text selection */
+            background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 10px, transparent 10px, transparent 20px);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 20px 20px;
+        }
+        /* Custom colors for consistency */
+        .text-dark-blue {
+            color: #1a202c; /* A darker shade for headings */
+        }
+    </style>
+</head>
+<body class="antialiased bg-white text-gray-900 min-h-screen flex flex-col relative">
+
+    <!-- Watermark Overlay -->
+    <div class="watermark-overlay">
+        <span class="watermark-text">TechUprise</span>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow container mx-auto px-4 py-8 md:px-8 lg:px-12 relative z-10">
+
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 md:p-12 lg:p-16 rounded-xl shadow-lg mb-12 relative overflow-hidden">
+            <!-- Decorative shapes -->
+            <div class="absolute top-0 left-0 w-32 h-32 bg-purple-500 opacity-20 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 right-0 w-48 h-48 bg-blue-500 opacity-20 rounded-full translate-x-1/2 -translate-y-1/2"></div>
+
+            <!-- Product Name -->
+            <p class="text-xl sm:text-2xl lg:text-3xl font-extrabold mb-2 leading-tight">
+                TechUprise: Interview Xpress 30
+            </p>
+            <!-- Tagline -->
+            <p class="text-lg sm:text-xl font-light mb-4 italic">
+                Polish Your Resume — Land More Interviews.
+            </p>
+            <!-- Guide Title -->
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">
+                10 Common Resume Mistakes & Fixes
+            </h1>
+
+            <div class="mt-6 flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0">
+                <img
+                  src="https://placehold.co/150x150/800080/FFFFFF?text=Resume"
+                  alt="Resume Icon"
+                  class="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-md border-4 border-purple-300"
+                  onerror="this.onerror=null; this.src='https://placehold.co/150x150/800080/FFFFFF?text=Resume';"
+                />
+                <p class="text-md sm:text-lg italic font-medium">
+                    Avoid common pitfalls and optimize your resume for success with these actionable fixes.
+                </p>
+            </div>
+        </section>
+
+        <!-- Mistakes & Fixes Section -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-12 border border-gray-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-6">
+                Common Resume Pitfalls and How to Fix Them:
+            </h2>
+
+            <!-- Mistake #1: Generic, Vague Objective -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #1: Generic, Vague Objective
+                </h3>
+                <p class="text-red-600 mb-2 font-medium">❌ Example:</p>
+                <div class="bg-red-100 p-3 rounded-md text-gray-800 italic mb-4">
+                    "Seeking a challenging role in a dynamic organization."
+                </div>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Use a short, specific summary instead.<br>
+                    Final-year Computer Science student skilled in React and Node.js, seeking an SDE internship to build scalable web applications."
+                </div>
+            </div>
+
+            <!-- Mistake #2: Passive Language -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #2: Passive Language
+                </h3>
+                <p class="text-red-600 mb-2 font-medium">❌ Example:</p>
+                <div class="bg-red-100 p-3 rounded-md text-gray-800 italic mb-4">
+                    "Was responsible for writing backend APIs."
+                </div>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Use active, impact-driven language.<br>
+                    Built and deployed REST APIs in Node.js, improving data retrieval speed by 30%."
+                </div>
+            </div>
+
+            <!-- Mistake #3: No Quantifiable Results -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #3: No Quantifiable Results
+                </h3>
+                <p class="text-red-600 mb-2 font-medium">❌ Example:</p>
+                <div class="bg-red-100 p-3 rounded-md text-gray-800 italic mb-4">
+                    "Worked on frontend development."
+                </div>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Developed reusable React components, reducing development time by 20% across the team."
+                </div>
+            </div>
+
+            <!-- Mistake #4: Spelling & Grammar Errors -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #4: Spelling & Grammar Errors
+                </h3>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Use tools like Grammarly, Linguix, or even Google Docs grammar suggestions."
+                </div>
+            </div>
+
+            <!-- Mistake #5: Cluttered Design -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #5: Cluttered Design
+                </h3>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Use a clean, minimal ATS-friendly template (like Jake’s Overleaf Resume). Avoid using multiple columns or fancy graphics."
+                </div>
+            </div>
+
+            <!-- Mistake #6: Too Long (Over 1 Page for Freshers) -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #6: Too Long (Over 1 Page for Freshers)
+                </h3>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Keep it one page unless you have 3+ years of experience. Be selective about what you include."
+                </div>
+            </div>
+
+            <!-- Mistake #7: Not Tailored to the Job -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #7: Not Tailored to the Job
+                </h3>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Customize your resume for every role. Mirror keywords from the JD. Highlight relevant projects and skills."
+                </div>
+            </div>
+
+            <!-- Mistake #8: No Project Details -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #8: No Project Details
+                </h3>
+                <p class="text-red-600 mb-2 font-medium">❌ Example:</p>
+                <div class="bg-red-100 p-3 rounded-md text-gray-800 italic mb-4">
+                    "Built an e-commerce website."
+                </div>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Built a MERN stack e-commerce site with cart, checkout, and payment gateway; deployed on Heroku."
+                </div>
+            </div>
+
+            <!-- Mistake #9: Using Overused Phrases -->
+            <div class="mb-8 p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #9: Using Overused Phrases
+                </h3>
+                <p class="text-red-600 mb-2 font-medium">❌ Phrases like:</p>
+                <div class="bg-red-100 p-3 rounded-md text-gray-800 italic mb-4">
+                    "Team player", "Go-getter", "Fast learner"
+                </div>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Let your work speak—show projects, contributions, outcomes."
+                </div>
+            </div>
+
+            <!-- Mistake #10: Leaving Out GitHub/Portfolio Links -->
+            <div class="p-4 bg-red-50 rounded-lg shadow-sm border border-red-200">
+                <h3 class="text-xl lg:text-2xl font-semibold text-red-700 mb-3 flex items-center">
+                    🚫 Mistake #10: Leaving Out GitHub/Portfolio Links
+                </h3>
+                <p class="text-green-600 mb-2 font-medium">✅ Fix:</p>
+                <div class="bg-green-100 p-3 rounded-md text-gray-800 italic">
+                    "Always add your GitHub, portfolio, or LinkedIn in the top section so it's visible right away."
+                </div>
+            </div>
+        </section>
+
+        <!-- Pro Tip Section -->
+        <section class="bg-blue-100 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-blue-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-6 flex items-center">
+                <span class="mr-2 text-purple-600 text-3xl">✅</span> Pro Tip: Run your resume through tools like:
+            </h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li><a href="https://www.jobscan.co/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Jobscan</a></li>
+                <li><a href="https://rezi.ai/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Rezi</a></li>
+                <li><a href="https://resumeworded.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Resumeworded</a></li>
+            </ul>
+            <p class="text-gray-700 mt-4 italic">...to improve ATS score and relevance.</p>
+        </section>
+
+
+        <!-- Dummy User ID Section (Not relevant for static HTML, but retained for consistency) -->
+        <div class="text-xs text-gray-500 text-center mt-12 p-2 bg-gray-100 rounded-md">
+            User ID: guide-viewer-id (This ID is for collaborative features and may vary across sessions)
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white p-4 text-center text-sm mt-8 shadow-inner">
+        &copy; <span id="current-year"></span> TechUprise Resume Mistakes Guide
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set dynamic copyright year in footer
+            const currentYearSpan = document.getElementById('current-year');
+            if (currentYearSpan) {
+                currentYearSpan.textContent = new Date().getFullYear();
+            } else {
+                console.error("Element with ID 'current-year' not found in footer. Cannot set copyright year.");
+            }
+        });
+    </script>
+</body>
+</html>
